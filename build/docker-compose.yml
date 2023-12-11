@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  url-shortener-db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: url-shortener
+      POSTGRES_USER: url-shortener-user
+      POSTGRES_PASSWORD: 1234
+    ports:
+      - "6432:5432"
+    volumes:
+      - '../migrations/:/docker-entrypoint-initdb.d/'
