@@ -73,7 +73,7 @@
 **Request:**
 ```JSON
 {
-    "url": "url": "https://www.youtube.com/videos/nature"
+    "url": "https://www.youtube.com/videos/nature"
 }
 ```
 **Response:**
