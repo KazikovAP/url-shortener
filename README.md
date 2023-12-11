@@ -23,6 +23,7 @@
 `go run cmd/url-shortener/main.go --in_memory`
 
 *Пример POST запроса на адрес* `http://localhost:8000/url`:
+
 **Request:**
 ```JSON
 {
@@ -37,6 +38,7 @@
 }
 ```
 *Пример GET запроса на адрес* `http://localhost:8000/VRNYvumJmZ`:
+
 **Response:**
 ```JSON
 {
@@ -45,6 +47,7 @@
 }
 ```
 *Повторный POST запрос на адрес* `http://localhost:8000/url`:
+
 **Request:**
 ```JSON
 {
@@ -66,6 +69,7 @@
 `go run cmd/url-shortener/main.go`
 
 *Пример POST запроса на адрес* `http://localhost:8000/url`:
+
 **Request:**
 ```JSON
 {
@@ -80,6 +84,7 @@
 }
 ```
 *Пример GET запроса на адрес* `http://localhost:8000/2f62KXpQms`:
+
 **Response:**
 ```JSON
 {
@@ -88,6 +93,7 @@
 }
 ```
 *Повторный POST запрос на адрес* `http://localhost:8000/url`:
+
 **Request:**
 ```JSON
 {
